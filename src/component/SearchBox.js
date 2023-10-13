@@ -18,7 +18,7 @@ const SearchBox = ({ searchQuery, setSearchQuery, placeholder, field }) => {
       <input
         type="text"
         placeholder={placeholder}
-        onKeyPress={onCheckEnter}
+        onKeyPress={onCheckEnter} //검샏어를 입력하고 "엔터"
         onChange={(event) => setKeyword(event.target.value)}
         value={keyword}
       />
